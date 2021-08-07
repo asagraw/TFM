@@ -20,6 +20,7 @@ namespace Persistence
                     StartDate = System.DateTime.Now.AddDays(-5),
                     TargetAmount = 10000.00M,
                     CurrentAmount = 3000.00M,
+                    Image = "lotus-temple-svgrepo-com.svg",
                     Contributors = new List<Contributor>()
                     {
                         new Contributor
@@ -41,6 +42,7 @@ namespace Persistence
                     StartDate = System.DateTime.Now.AddDays(-5),
                     TargetAmount = 10000.00M,
                     CurrentAmount = 3000.00M,
+                    Image = "gate-svgrepo-com.svg",
                     Contributors = new List<Contributor>()
                     {
                         new Contributor
@@ -63,6 +65,7 @@ namespace Persistence
                     StartDate = System.DateTime.Now.AddDays(-5),
                     TargetAmount = 5000.00M,
                     CurrentAmount = 1000.00M,
+                    Image = "fridge-svgrepo-com.svg",
                     Contributors = new List<Contributor>()
                     {
                         new Contributor

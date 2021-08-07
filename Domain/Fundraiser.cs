@@ -11,6 +11,8 @@ namespace Domain
         public DateTime StartDate { get; set; }
         public decimal TargetAmount { get; set; }
         public decimal CurrentAmount { get; set; }
+
+        public string Image { get; set; }
         public List<Contributor> Contributors { get; set; }
     }
 }
